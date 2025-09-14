@@ -1,0 +1,40 @@
+<html>
+    <body>
+        <h1>Javascript Booleans</h1>
+        <h2>Use Case: if...else</h2>
+
+        <p id="demo"></p>
+
+        <script>
+            const hour = new Date().getHours;
+            let greeting;
+
+            if(hour < 18) {
+                greeting = "Good Day!";
+            } else {
+                greeting = "Good Evening!";
+            }
+
+            document.getElementById("demo").innerHTML = greeting;
+        </script>
+    </body>
+    <!-- example2 -->
+
+        <h1>JavaScript Booleans</h1>
+        <h2>Use Case: While Loop</h2>
+
+        <p id="demo_"></p>
+
+        <script>
+            let text = "";
+            let i = 1;
+
+            while(i < 10) {
+                text += i;
+                i++;
+            }
+
+            document.getElementById("demo_").innerHTML = text;
+        </script>
+    </body>
+</html>
